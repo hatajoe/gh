@@ -18,3 +18,9 @@ You have to set the environment variable like below.
 ```
 GITHUB_TOKEN=XXXXXXXXXXXXXXXX
 ```
+
+install:
+
+```
+% go install ./...
+```
