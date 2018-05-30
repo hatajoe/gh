@@ -4,11 +4,11 @@ gh is GitHub API client tools for self-use.
 
 # commands
 
-- [pr](https://github.com/hatajoe/gh/tree/master/cmd/pr)
+- [gh-pr](https://github.com/hatajoe/gh/tree/master/cmd/gh-pr)
     - Fetch URL of created GitHub pull-requests that at since a week before.
-- [pj](https://github.com/hatajoe/gh/tree/master/cmd/pj)
+- [gh-done](https://github.com/hatajoe/gh/tree/master/cmd/gh-done)
     - Fetch URL of GitHub issues or pull-requests that are referred to project card of `Done` column.
-- [st](https://github.com/hatajoe/gh/tree/master/cmd/st)
+- [gh-stats](https://github.com/hatajoe/gh/tree/master/cmd/gh-stats)
     - Fetch organization commit stats.
 
 # setup

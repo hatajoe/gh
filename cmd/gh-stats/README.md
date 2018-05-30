@@ -1,4 +1,4 @@
-# st
+# gh-stats
 
 Fetch organization commit stats.
 
@@ -12,7 +12,7 @@ option requirements:
 ```
 
 ```
-% ./st -o test
+% ./gh-stats -o test
 since: 2018-05-23 13:47:25.891953066 +0900 JST m=-604799.998108895
 repositories: 3
 test-repository1 commits 31
