@@ -15,6 +15,7 @@ import (
 func main() {
 	var (
 		r = flag.String("r", "", "full name of repository (e.g, hatajoe/gh)")
+		d = flag.Int("d", 7, "day")
 	)
 	flag.Parse()
 
@@ -27,7 +28,7 @@ func main() {
 	tc := oauth2.NewClient(ctx, ts)
 	client := github.NewClient(tc)
 
-	since := time.Now().Add(-24 * 7 * time.Hour)
+	since := time.Now().Add(-24 * time.Duration(*d) * time.Hour)
 	opt := &github.PullRequestListOptions{
 		State: "all",
 		ListOptions: github.ListOptions{
